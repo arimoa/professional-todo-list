@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="main-container">
+        <h2>Enter your task</h2>
+        <div class="inner-container">
+          <input
+            type="text"
+            id="input"
+            class="input"
+            placeholder="Add ToDo..."
+          />
+          <button id="add">Add</button>
+        </div>
+      </div>
+      <div class="main-container" id="list">
+        <p class="done" id="done"></p>
+        <!--
+        <div class="inner-container">
+          <input type="text" id="task" class="task" readonly value="Arman" />
+          <div class="actions" id="actions">
+            <button class="edit">Edit</button>
+            <button class="remove">Remove</button>
+          </div>
+        </div>
+        -->
+      </div>
+    </header>
+    <aside>
+      <div class="main-container">
+        <p>Hints:</p>
+        <ul>
+          <li>
+            Press <span class="edit-txt">Edit</span> button to eddit your task.
+          </li>
+          <li>
+            Press <span class="remove-txt">Remove</span> button to remove your
+            task.
+          </li>
+          <li>
+            Press on a task to draw a
+            <span class="line-through">line through</span> on a task to make it
+            is a Finished Task.
+          </li>
+        </ul>
+      </div>
+    </aside>
+  </body>
+</html>
