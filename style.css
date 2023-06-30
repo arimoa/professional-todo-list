@@ -8,6 +8,7 @@ body {
   min-height: 100vh;
   background-color: #f0932b;
   position: relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .main-container {
   margin: 20px auto;
