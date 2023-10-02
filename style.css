@@ -8,7 +8,7 @@ body {
   min-height: 100vh;
   background-color: #f0932b;
   position: relative;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .main-container {
   margin: 20px auto;
@@ -35,6 +35,10 @@ button {
   width: 60%;
   height: 3em;
   font-size: 1.2rem;
+  transition: 0.2s;
+}
+#input:hover {
+  background-color: #fbf6dd;
 }
 
 input {
@@ -95,6 +99,8 @@ span {
   font-size: 1.5rem;
 }
 #done {
+  text-align: center;
+  font-style: italic;
   font-size: 1.5rem;
   padding: 5px 5px;
   margin-bottom: 0.5em;
@@ -127,5 +133,18 @@ aside .main-container {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  #hints {
+    display: none;
+  }
+}
+@media screen and (max-width: 820px) {
+  .main-container {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 520px) {
+  .task {
+    width: 50%;
   }
 }
