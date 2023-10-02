@@ -4,11 +4,11 @@
     <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>ToDo List</title>
     <script src="main.js" defer></script>
   </head>
   <body>
-    <header>
+    <main>
       <div class="main-container">
         <h2>Enter your task</h2>
         <div class="inner-container">
@@ -23,19 +23,10 @@
       </div>
       <div class="main-container" id="list">
         <p class="done" id="done"></p>
-        <!--
-        <div class="inner-container">
-          <input type="text" id="task" class="task" readonly value="Arman" />
-          <div class="actions" id="actions">
-            <button class="edit">Edit</button>
-            <button class="remove">Remove</button>
-          </div>
-        </div>
-        -->
       </div>
-    </header>
+    </main>
     <aside>
-      <div class="main-container">
+      <div class="main-container" id="hints">
         <p>Hints:</p>
         <ul>
           <li>
